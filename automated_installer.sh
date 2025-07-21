@@ -839,3 +839,14 @@ echo "   python3 ~/portable-lab/lightroom-integration.py analyze /path/to/photo.
 echo "   source ~/portable-lab/coding-helpers.sh && ask-coder 'question'"
 echo ""
 echo "📚 See BUILD_GUIDE.md and DAILY_TASKS.md for usage"
+
+
+# Setup N8N Example Workflows
+echo ""
+echo "🔧 Setting up N8N example workflows..."
+sleep 15  # Give N8N time to fully start
+
+# Run the N8N examples setup
+if [ -f "$LAB_DIR/setup-n8n-examples.sh" ]; then
+    "$LAB_DIR/setup-n8n-examples.sh"
+fi

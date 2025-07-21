@@ -48,3 +48,19 @@ Version: 2.1
 License: Open Source
 Compatibility: Apple Silicon Macs
 
+
+
+## Default Credentials
+
+For easy setup, all services use the same test credentials:
+
+- **Username**: `testuser`
+- **Password**: `testpass123`
+
+### Service Access
+- **N8N Workflows**: http://localhost:5678 (login required)
+- **Open WebUI**: http://localhost:3000 (create account on first visit)
+
+⚠️ **Security Note**: Change default passwords for production use. These are test credentials for local development only.
+
+
